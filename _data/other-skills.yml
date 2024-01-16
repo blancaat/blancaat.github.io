@@ -1,0 +1,7 @@
+- name: Micronaut
+  percentage: 80
+  color: info
+
+- name: Databases - SQL - noSQL
+  percentage: 70
+  color: success
