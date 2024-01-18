@@ -12,6 +12,14 @@ open_new_tab        : false                             # Opens external URLs in
 plugins:
   - jemoji
 
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
+
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
