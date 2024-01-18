@@ -4,7 +4,7 @@
 
 - name: Java
   percentage: 80
-  color:
+  color: danger
 
 - name: Micronaut
   percentage: 70
