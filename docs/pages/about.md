@@ -7,7 +7,7 @@ weight: 3
 
 # **About Me**
 
-Hi I am **Blanca Asensio** :wave:,<br>
+Hi I am **Blanca Asensio** :)  <br>
 I am a person eager to face new challenges every day and in search of continuous learning. I always try to adapt to the needs of the projects regardless of the role I have to acquire.
 
 I have been working for five years in the software development world but the last four years have been more as a Backend Developer, developing all kinds of functionalities in microservices architectures with JVM languages (Kotlin, Java),
@@ -28,7 +28,7 @@ I like to work in team trying to contribute as much as possible to my colleagues
   </div>
 
   <div class="progress mb-4 bg-themed" style="height: 8px;">
-    <div class="progress-bar bg-{{ primary | default: "primary" }} wow animated slideInLeft"
+    <div class="progress-bar bg-{{primary}} wow animated slideInLeft"
       data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"
       role="progressbar"
       style="width: 90%;"
@@ -48,7 +48,7 @@ I like to work in team trying to contribute as much as possible to my colleagues
   </div>
 
   <div class="progress mb-4 bg-themed" style="height: 8px;">
-    <div class="progress-bar bg-{{ danger | default: "primary" }} wow animated slideInLeft"
+    <div class="progress-bar bg-{{danger}} wow animated slideInLeft"
       data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"
       role="progressbar"
       style="width: 80%;"
@@ -68,7 +68,7 @@ I like to work in team trying to contribute as much as possible to my colleagues
   </div>
 
   <div class="progress mb-4 bg-themed" style="height: 8px;">
-    <div class="progress-bar bg-{{ secondary | default: "primary" }} wow animated slideInLeft"
+    <div class="progress-bar bg-{{secondary}} wow animated slideInLeft"
       data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"
       role="progressbar"
       style="width: 70%;"
@@ -81,27 +81,6 @@ I like to work in team trying to contribute as much as possible to my colleagues
 
 <div class="col-lg">
   <h2 class="mb-3">Other Skills</h2>
-
-  <div class="row justify-content-between align-items-center">
-    <div class="col-10">
-      <p class="mb-1">Frameworks: Micronaut, Spring</p>
-    </div>
-    <div class="col-2 text-right">
-      <p class="mb-1 text-muted">80%</p>
-    </div>
-  </div>
-
-  <div class="progress mb-4 bg-themed" style="height: 8px;">
-    <div class="progress-bar bg-{{ info | default: "primary" }} wow animated slideInLeft"
-      data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"
-      role="progressbar"
-      style="width: 80%;"
-      aria-valuenow="80"
-      aria-valuemin="0"
-      aria-valuemax="100">
-    </div>
-  </div>
-
   <div class="row justify-content-between align-items-center">
     <div class="col-10">
       <p class="mb-1"> Databases - SQL - noSQL</p>
@@ -112,22 +91,13 @@ I like to work in team trying to contribute as much as possible to my colleagues
   </div>
 
   <div class="progress mb-4 bg-themed" style="height: 8px;">
-    <div class="progress-bar bg-{{ success | default: "primary" }} wow animated slideInLeft"
+    <div class="progress-bar bg-{{success}} wow animated slideInLeft"
       data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"
       role="progressbar"
       style="width: 70%;"
       aria-valuenow="70"
       aria-valuemin="0"
       aria-valuemax="100">
-    </div>
-  </div>
-
-  <div class="row justify-content-between align-items-center">
-    <div class="col-10">
-      <p class="mb-1">Micronaut</p>
-    </div>
-    <div class="col-2 text-right">
-      <p class="mb-1 text-muted">90%</p>
     </div>
   </div>
 </div>
@@ -137,7 +107,7 @@ I like to work in team trying to contribute as much as possible to my colleagues
     <div class="timeline-body bg-themed">
         <div class="timeline-item">
           <div class="content">
-            <h2>Software Engineer, Autentia, Spain}</h2>
+            <h2>Software Engineer, Autentia, Spain</h2>
             <h6 class="date">2020 — present </h6>
             <p>Software development mainly in the backend, although depending on the needs of the project I have also participated in the development of frontend functionalities.
     - Implementation of new functionalities in microservices based architectures. Design and construction of APIs.
