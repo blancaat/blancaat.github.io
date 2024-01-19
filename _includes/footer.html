@@ -5,26 +5,24 @@
     by <strong>{{ site.author.name }}</strong>
   </small>
 
-<div class="container-fluid justify-content-center">
+  <div class="container-fluid justify-content-center">
 
   {%- assign unfocused_color = "6c757d" -%}
-
-  {% for account in site.author %}
-
-    {%- assign service_name = account[0] -%}
-    {%- assign service_data = site.data.social-media[service_name] -%}
-    {%- if service_data -%}    
-    <a class="social mx-1"  href="{{ service_data.url }}{{ account[1] }}"
+  <a class="social mx-1"  href="https://www.linkedin.com/in/blanca-asensio-9b5592183"
        style="color: #{{ unfocused_color }}"
-       onMouseOver="this.style.color='#{{ service_data.color }}'"
+       onMouseOver="this.style.color='#007bb5'"
        onMouseOut="this.style.color='#{{ unfocused_color }}'">
-      <i class="{{ service_data.icon }} fa-1x"></i>
-    </a>
+      <i class="fab fa-linkedin-in fa-1x"></i>
+  </a>
+  <a class="social mx-1"  href=""mailto:""asensiotorresblanca@gmail.com"
+       style="color: #{{ unfocused_color }}"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#{{ unfocused_color }}'">
+      <i class="fas fa-envelope fa-1x"></i>
+   </a>
     {%- endif -%}
   
-  {% endfor %}
-
-</div>
+  </div>
   {%- assign theme_name = "portfolYOU" -%}
   {%- assign theme_repo = "https://github.com/YoussefRaafatNasry/portfolYOU" -%}
   <small id="attribution">
