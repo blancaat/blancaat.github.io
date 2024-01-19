@@ -28,7 +28,7 @@ I like to work in team trying to contribute as much as possible to my colleagues
   </div>
 
   <div class="progress mb-4 bg-themed" style="height: 8px;">
-    <div class="progress-bar bg-{{primary}} wow animated slideInLeft"
+    <div class="progress-bar bg-primary wow animated slideInLeft"
       data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"
       role="progressbar"
       style="width: 90%;"
@@ -48,7 +48,7 @@ I like to work in team trying to contribute as much as possible to my colleagues
   </div>
 
   <div class="progress mb-4 bg-themed" style="height: 8px;">
-    <div class="progress-bar bg-{{danger}} wow animated slideInLeft"
+    <div class="progress-bar bg-danger wow animated slideInLeft"
       data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"
       role="progressbar"
       style="width: 80%;"
@@ -68,7 +68,7 @@ I like to work in team trying to contribute as much as possible to my colleagues
   </div>
 
   <div class="progress mb-4 bg-themed" style="height: 8px;">
-    <div class="progress-bar bg-{{secondary}} wow animated slideInLeft"
+    <div class="progress-bar bg-secondary wow animated slideInLeft"
       data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"
       role="progressbar"
       style="width: 70%;"
@@ -91,7 +91,7 @@ I like to work in team trying to contribute as much as possible to my colleagues
   </div>
 
   <div class="progress mb-4 bg-themed" style="height: 8px;">
-    <div class="progress-bar bg-{{success}} wow animated slideInLeft"
+    <div class="progress-bar bg-success wow animated slideInLeft"
       data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"
       role="progressbar"
       style="width: 70%;"
